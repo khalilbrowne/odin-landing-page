@@ -88,3 +88,43 @@ h5 {
         flex-direction: column;
     }
 }
+
+/* css for the second section*/
+
+.section-two {
+    display: flex;
+    background-color: #F9FAF8;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 80px;
+    gap: 20px;
+
+}
+
+.heading {
+    font-size: 20px;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 750px;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    color: rgb(115, 113, 121);
+}
+
+.image-box {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+
+.item {
+    width: 150px;
+}
