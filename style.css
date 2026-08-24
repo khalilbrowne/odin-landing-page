@@ -128,3 +128,33 @@ h5 {
 .item {
     width: 150px;
 }
+
+/* css for the third section*/
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    width: 100%;
+    max-width: 780px;
+    margin-bottom: 0;
+}
+
+.attribution {
+    font-weight: bold;
+    width: 100%;
+    max-width: 720px;
+    text-align: right;
+    margin-top: 10px;
+    font-size: 20px
+}
